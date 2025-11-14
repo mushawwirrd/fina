@@ -1,10 +1,9 @@
-import AppRouter from "./routes/AppRouter"
-
+import Fina from "./pages/fina"
 
 function App() {
   return (
 
-    <AppRouter />
+    <Fina/>
 
   )
 
