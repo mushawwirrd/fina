@@ -21,7 +21,44 @@ function Fina() {
 
     return (
         <div>
+            <div>
 
+                <div>
+                    <form onSubmit={submitHandle}>
+
+                        <div>
+                            <label className="block">Pemasukan</label>
+                            <input
+                                type="text"
+                                value={income}
+                                onChange={e => setIncome(Number(e.target.value))}
+                                className="border p-2 rounded-md" />
+                        </div>
+
+                        <div>
+                            <label className="block">Pengeluaran</label>
+                            <input
+                                type="text" value={spending}
+                                onChange={e => setSpending(Number(e.target.value))}
+                                className="border p-2 rounded-md" />
+                        </div>
+
+                        <div>
+                            <button>Diagnosa</button>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div>
+
+                    {message == "Sehat" && <p>Uang anda sehat</p>}
+                    {message == "Belum input" && <p>Silahkan masukkan pengeluaran dan pemasukan anda</p>}
+                    {message == "Tidak sehat" && <p>Uang anda tidak sehat</p>}
+
+                </div>
+
+            </div>
         </div>
     )
 }
