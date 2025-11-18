@@ -42,7 +42,7 @@ function Fina() {
             <div className=" flex flex-col items-center justify-center bg-gradient-to-b from-blue-800 to-blue-600 h-screen ">
                 
                 <div className="mb-8">
-                    <h1 className="text-4xl text-white font-bold">Cek Kondisi Kesehatan Keuangan Anda</h1>
+                    <h1 className="text-4xl text-white font-bold text-center">Cek Kondisi Kesehatan Keuangan Anda</h1>
                 </div>
                 
                 <div className=" px-12 py-10 rounded-2xl bg-white shadow-lg w-[360px] h-[384px]">
