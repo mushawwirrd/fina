@@ -1,4 +1,4 @@
-import Fina from "./pages/fina"
+import Fina from "./pages/Fina"
 
 function App() {
   return (
